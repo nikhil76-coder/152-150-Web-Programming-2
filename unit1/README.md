@@ -14,11 +14,10 @@ contact.html, portfolio.html
 These are just placeholders and creating them is not required. The navigation links should be
 created using the unorder list element (e.g. \<ul\>…\</ul\>).
 8. In the \<main\> section of your document, include one or two paragraphs about your page.
-9. In a new \<section\>, create a video element and use the link of one of the videos found here:
-http://apollo.gtc.edu/~hurc/152-182/video/
-10. Create an audio element and link to a sample vidoe file found here:
-http://apollo.gtc.edu/~hurc/152-182/podcast/
-You can also create your own if you wish.
+9. In a new \<section\>, create a video element and use the link of one of the videos found here or one of your own:
+  <a href="http://apollo.gtc.edu/~hurc/152-182/video/" target="_blank">http://apollo.gtc.edu/~hurc/152-182/video/</a>
+10. Create an audio element and link to a sample video file found here or one of your own:
+<a href="http://apollo.gtc.edu/~hurc/152-182/podcast/" target="_blank">http://apollo.gtc.edu/~hurc/152-182/podcast/</a>
 11. Outside of the \<main\> tag, provide a footer section for your page. It should include common
 content such as copyright date, text, etc.
 12. Save the document

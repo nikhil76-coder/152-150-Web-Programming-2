@@ -5,7 +5,7 @@
         <dl>
             {{#each projects}}
                 <dt>
-                    <h3>{{title}}</h3>
+                    <h3>{{ counter @index }}. {{title}}</h3>
                 <dd>{{description}}</dd>
                 <dd>Url: <a href="{{url}}" target="_blank">{{url}}</a></dd>
                 </dt>

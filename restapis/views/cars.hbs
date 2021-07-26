@@ -1,0 +1,23 @@
+<main>
+    <h3>Cars Page</h3>
+
+    {{#each cars}}
+        <p>{{ this.firstname }}</p>
+
+        {{#each this.car }}
+        <p> Make: {{ this.make }}  - 
+            Model: {{ this.model }} </p>
+        {{/each}}
+        <hr>
+    {{/each}}
+
+</main>
+
+{{!-- [
+  {
+    _id: new ObjectId("60fdcdae1e9b965b4c2fa04e"),
+    firstname: 'Maurene',
+    lastname: 'Beddis',
+    location: 'New York',
+    car: [ [Object], [Object] ]
+  }, --}}
